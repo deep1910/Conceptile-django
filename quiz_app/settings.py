@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-+c)xih*hr5(ctv_u-386i%03jwve92h^fs)36dy(y25cb4$@h(
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['quiz.onrender.com']
+ALLOWED_HOSTS = ['conceptile-django.onrender.com']
 
 
 # Application definition
