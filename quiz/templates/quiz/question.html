@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Question</title>
+</head>
+<body>
+    <h1>{{ question_text }}</h1>
+    <form method="GET" action="{% url 'submit_answer' session_id question_id %}"">
+        <input type="radio" name="answer" value="A"> {{options.A}}<br>
+        <input type="radio" name="answer" value="B"> {{options.B }}<br>
+        <input type="radio" name="answer" value="C"> {{options.C }}<br>
+        <input type="radio" name="answer" value="D"> {{options.D}}<br>
+        <button type="submit">Submit Answer</button>
+    </form>
+</body>
+</html>

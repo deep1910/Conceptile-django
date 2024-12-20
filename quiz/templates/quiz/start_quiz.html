@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Start Quiz</title>
+</head>
+<body>
+    <h1>Welcome to the Quiz!</h1>
+    <form method="POST" action="{% url 'start_quiz' %}">
+        {% csrf_token %}
+        <button type="submit">Start New Quiz</button>
+    </form>
+</body>
+</html>
